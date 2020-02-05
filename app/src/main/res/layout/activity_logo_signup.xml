@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="right">
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_buyer_sel"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="#fff"
+                android:textColor="#e8732d"
+                android:text="@string/button_buyer"/>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_seller_sel"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="#e8732d"
+                android:textColor="#fff"
+                android:text="@string/button_seller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/buyer_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/logo" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textPersonName"
+                    android:drawableStart="@drawable/ic_user3"
+                    android:hint="@string/string_username" />
+            </android.support.design.widget.TextInputLayout>
+            <!-- Name Label -->
+            <!-- Password Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/ic_password"
+                    android:hint="@string/string_password"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Password Re-enter Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_reEnterPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/ic_password"
+                    android:hint="@string/string_rpassword"/>
+            </android.support.design.widget.TextInputLayout>
+            <!-- Address email -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textEmailAddress"
+                    android:drawableStart="@drawable/ic_email"
+                    android:hint="@string/string_email" />
+            </android.support.design.widget.TextInputLayout>
+            <!-- mobile number -->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textEmailAddress"
+                    android:drawableStart="@drawable/ic_mobile"
+                    android:hint="@string/string_mobile" />
+            </android.support.design.widget.TextInputLayout>
+            <!--  Email Label -->
+
+            <!-- Signup Button -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e8732d"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="12dp"
+                android:text="@string/button_signup"/>
+
+            <TextView android:id="@+id/link_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:layout_marginBottom="24dp"
+                android:text="@string/string_login"
+                android:gravity="center"
+                android:textSize="16dip"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/seller_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/shop_img"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_image"
+                android:onClick="onPickerImage"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:text="@string/string_selimage"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_seller_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textPersonName"
+                    android:drawableStart="@drawable/ic_user3"
+                    android:hint="@string/string_username" />
+            </android.support.design.widget.TextInputLayout>
+            <!-- Name Label -->
+            <!-- Password Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_seller_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/ic_password"
+                    android:hint="@string/string_password"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Password Re-enter Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_seller_reEnterPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/ic_password"
+                    android:hint="@string/string_rpassword"/>
+            </android.support.design.widget.TextInputLayout>
+            <!-- Address email -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_seller_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textEmailAddress"
+                    android:drawableStart="@drawable/ic_email"
+                    android:hint="@string/string_email" />
+            </android.support.design.widget.TextInputLayout>
+            <!-- mobile number -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_seller_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:inputType="textEmailAddress"
+                    android:drawableStart="@drawable/ic_mobile"
+                    android:hint="@string/string_mobile" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!--  Email Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <EditText android:id="@+id/input_shopname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:drawableStart="@drawable/ic_user3"
+                    android:hint="@string/string_shopname" />
+            </android.support.design.widget.TextInputLayout>
+            <!-- Name Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText android:id="@+id/input_shopaddress"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:drawableStart="@drawable/ic_color_home"
+                        android:hint="@string/string_shopaddress" />
+                    <ImageView
+                        android:id="@+id/Btnshopaddress"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+                        android:src="@drawable/position"
+                        android:layout_alignRight="@+id/input_shopaddress"/>
+                </LinearLayout>
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- Name Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <TextView android:id="@+id/input_shoplocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dip"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <!-- Name Label -->
+            <!-- Signup Button -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_seller_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#e8732d"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="12dp"
+                android:text="@string/button_signup"/>
+
+            <TextView android:id="@+id/link_seller_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:layout_marginBottom="24dp"
+                android:text="@string/string_login"
+                android:gravity="center"
+                android:textSize="16dip"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

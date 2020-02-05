@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:minHeight="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:titleTextColor="@android:color/white"
+    android:background="@color/colorWhite">
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_color_user"
+        android:title="View Profile"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_color_logout1"
+        android:title="Logout"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

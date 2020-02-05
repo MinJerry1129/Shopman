@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">France Grossistes </string>
+    <color name="color_logo_primary_dark">#E12929</color>
+    <color name="color_logo_primary_darker">#CC1D1D</color>
+    <string name ="title_home">首页</string>
+    <string name ="title_favorite">收藏</string>
+    <string name ="title_basket">购物篮</string>
+    <string name ="title_addproduct">添加产品</string>
+    <string name ="title_logout">注销</string>
+    <string name ="title_allproduct">所有产品</string>
+    <string name ="title_allshop">所有商店</string>
+    <string name ="title_mybasket">我的购物篮</string>
+    <string name ="title_product">产品</string>
+    <string name ="title_shop">商店</string>
+    <string name ="title_editproduct">编辑产品</string>
+    <string name ="title_favuser">收藏的用户</string>
+    <string name="toast_empty">空的</string>
+    <string name ="title_dashboard">仪表板</string>
+    <string name ="title_notifications">通知</string>
+    <string name ="title_activity_catogories">类别</string>
+    <string name ="title_activity_test">测试</string>
+
+    <string name ="string_search">搜索</string>
+    <string name ="string_username">用户名</string>
+    <string name ="string_mobile">移动</string>
+    <string name ="string_seeall">查看全部-> </string>
+    <string name ="string_password">密码</string>
+    <string name ="string_rpassword">重新输入密码</string>
+    <string name ="string_email">电子邮件</string>
+    <string name ="string_signup">尚无帐户？创建一个</string>
+    <string name ="string_login">已经是会员？登录</string>
+    <string name ="string_selimage">选择图像</string>
+    <string name ="string_shopname">商店名称</string>
+    <string name ="string_shopaddress"> 店铺地址 </string>
+    <string name ="string_price">价格：</string>
+    <string name ="string_quality">质量：</string>
+    <string name ="string_description">说明</string>
+    <string name ="string_productname">产品名称</string>
+    <string name="string_selectlanguage">选择语言(Zh)</string>
+
+    <string name ="toast_forgot">输入您的用户名和手机号码。</string>
+    <string name ="toast_sign_shopaddress">插入正确的店铺地址。</string>
+    <string name ="toast_sign_correctinfo">正确输入您的信息。</string>
+    <string name ="toast_sign_existuser">您的用户名已在使用。</string>
+    <string name ="toast_sign_existemail">您的电子邮件已被注册</string>
+    <string name ="toast_sign_fail">失败。再试一次。</string>
+    <string name ="toast_sign_selshopimage">选择商店图像。</string>
+
+    <string name ="toast_login_valide">输入您的用户名和密码</string>
+    <string name ="toast_login_nouser">您尚未签名。请注册</string>
+    <string name ="toast_login_wrongpassword">密码错误</string>
+    <string name ="toast_checkinternet">检查您的互联网</string>
+    <string name ="toast_success">成功</string>
+    <string name ="toast_fail">失败</string>
+    <string name ="toast_checklocationset">请选择商店位置</string>
+
+    <string name ="button_product">产品</string>
+    <string name ="button_shop">商店</string>
+    <string name ="button_reset">重置</string>
+    <string name ="button_login">登录</string>
+    <string name ="button_forgot">忘记密码？</string>
+    <string name ="button_signup">创建帐户</string>
+    <string name ="button_buyer">买方</string>
+    <string name ="button_seller">卖方</string>
+    <string name ="button_buy">购买</string>
+    <string name ="button_add">添加</string>
+    <string name ="button_update">更新</string>
+    <string name ="button_delete">删除</string>
+    <string name ="button_set">设置</string>
+    <string name="button_edit">编辑</string>
+
+    <string name="valid_username">输入你的用户名</string>
+    <string name="valid_password">输入密码</string>
+
+    <string name="valid_email">输入有效邮件地址</string>
+    <string name="valid_usercharacter">输入超过4个字符的有效用户名</string>
+    <string name="valid_mobile">请输入有效的手机号码</string>
+    <string name="valid_mobilecharacter">请输入超过4个字符</string>
+    <string name="valid_passwordmatch">密码不匹配</string>
+    <string name="valid_shopname">输入店铺名称</string>
+    <string name="valid_shopaddress">输入店铺地址</string>
+    <string name="valid_shopaddresscorrect">输入正确的店铺地址</string>
+
+    <string name="valid_forgotcheckemail">密码已更改，请检查您的电子邮件</string>
+    <string name="valid_forgotemail">您的电子邮件不正确，请再次检查</string>
+    <string name="valid_forgotuser">您不是用户，请登录</string>
+</resources>

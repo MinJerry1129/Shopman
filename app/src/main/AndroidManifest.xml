@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.emp.auction">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ShopEditActivity"  android:screenOrientation="portrait"></activity>
+        <activity android:name=".OneShopMapActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ShopMapActivity" android:screenOrientation="portrait" />
+        <activity android:name=".FullScreenActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ProductEditActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ShopFavoriteActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ShopMainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".BuyerBasketActivity" android:screenOrientation="portrait" />
+        <activity android:name=".BuyerFavoriteActivity" android:screenOrientation="portrait" />
+        <activity android:name=".OneProductActivity" android:screenOrientation="portrait" />
+        <activity android:name=".OneShopActivity" android:screenOrientation="portrait" />
+        <activity android:name=".AllProductActivity" android:screenOrientation="portrait" />
+        <activity android:name=".AllShopActivity" android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".SignupMapActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ForgotActivity" android:screenOrientation="portrait" />
+        <activity android:name=".HomeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".PostActivity" android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+
+            <!-- android:theme="@android:style/Theme.NoTitleBar"> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

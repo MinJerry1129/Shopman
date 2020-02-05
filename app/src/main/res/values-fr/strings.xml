@@ -1,0 +1,91 @@
+<resources>
+    <string name = "app_name"> France Grossistes  </string>
+    <color name="color_logo_primary_dark">#E12929</color>
+    <color name="color_logo_primary_darker">#CC1D1D</color>
+    <string name = "title_home"> Accueil </string>
+    <string name = "title_favorite"> Favori </string>
+    <string name = "title_basket"> Panier </string>
+    <string name = "title_addproduct"> Ajouter un produit </string>
+    <string name = "title_logout"> Déconnexion </string>
+    <string name = "title_allproduct"> Tous les produits </string>
+    <string name = "title_allshop"> Toutes les boutiques </string>
+    <string name = "title_mybasket"> Mon panier </string>
+    <string name = "title_product"> Produit </string>
+    <string name = "title_shop"> Boutique </string>
+    <string name = "title_editproduct"> Modifier le produit </string>
+    <string name = "title_favuser"> Utilisateur favori </string>
+
+    <string name = "title_dashboard"> Tableau de bord </string>
+    <string name = "title_notifications"> Notifications </string>
+    <string name = "title_activity_catogories"> Catogories </string>
+
+    <string name = "title_activity_test"> test </string>
+    <string name="toast_empty">Vide</string>
+    <string name = "string_search"> Rechercher </string>
+    <string name = "string_username"> Nom d\'utilisateur </string>
+    <string name = "string_mobile"> Mobile </string>
+    <string name = "string_seeall"> SeeAll -> </string>
+    <string name = "string_password"> Mot de passe </string>
+    <string name = "string_rpassword"> Ressaisissez le mot de passe </string>
+    <string name = "string_email"> eMail </string>
+    <string name = "string_signup"> Pas encore de compte? Créez un </string>
+    <string name = "string_login"> Déjà membre? Connexion </string>
+    <string name = "string_selimage"> Sélectionnez l\'image </string>
+    <string name = "string_shopname"> nom de la boutique </string>
+    <string name = "string_shopaddress"> Adresse de la boutique </string>
+    <string name = "string_price"> Prix: </string>
+    <string name = "string_quality"> Qualité: </string>
+    <string name = "string_description"> Description </string>
+    <string name = "string_productname"> Nom du produit </string>
+    <string name="string_selectlanguage">la langue(Fr)</string>
+
+    <string name = "toast_forgot"> Entrez votre nom d\'utilisateur et votre numéro de téléphone portable. </string>
+    <string name = "toast_sign_shopaddress"> Insérer l\'adresse correcte de la boutique. </string>
+    <string name = "toast_sign_correctinfo"> Entrez vos informations correctement. </string>
+    <string name = "toast_sign_existuser"> Votre nom d\'utilisateur utilise déjà. </string>
+    <string name = "toast_sign_existemail"> Votre email a déjà été enregistré </string>
+    <string name = "toast_sign_fail"> Échec. Réessayez. </string>
+    <string name = "toast_sign_selshopimage"> Sélectionnez une image dans Shop. </string>
+
+    <string name = "toast_login_valide"> Entrez votre nom d\'utilisateur et votre mot de passe </string>
+    <string name = "toast_login_nouser"> Vous n\'êtes pas signé. Veuillez vous inscrire </string>
+    <string name = "toast_login_wrongpassword"> Mot de passe incorrect </string>
+
+    <string name = "toast_checkinternet"> Vérifiez votre Internet </string>
+    <string name = "toast_success"> Succès </string>
+    <string name = "toast_fail"> Fail </string>
+    <string name = "toast_checklocationset"> Veuillez sélectionner le magasin </string>
+
+
+
+    <string name = "button_product"> Produit </string>
+    <string name = "button_shop"> Boutique </string>
+    <string name = "button_reset"> Réinitialiser </string>
+    <string name = "button_login"> Connexion </string>
+    <string name = "button_forgot"> Mot de passe oublié? </string>
+    <string name = "button_signup"> Compte de création </string>
+    <string name = "button_buyer"> Acheteur </string>
+    <string name = "button_seller"> Vendeur </string>
+    <string name = "button_buy"> Acheter </string>
+    <string name = "button_add"> ADD </string>
+    <string name = "button_update"> Mettre à jour </string>
+    <string name = "button_delete"> Supprimer </string>
+    <string name = "button_set"> Définir </string>
+    <string name="button_edit">Modifier</string>
+
+    <string name="valid_username">Entrez votre nom d utilisateur</string>
+    <string name="valid_password">Tapez votre mot de passe</string>
+
+    <string name="valid_email">Entrez une adresse email valide</string>
+    <string name="valid_usercharacter">Entrez un nom d utilisateur valide plus de 4 caractères</string>
+    <string name="valid_mobile">Entrez un numéro de mobile valide</string>
+    <string name="valid_mobilecharacter">Veuillez entrer plus de 4 caractères.</string>
+    <string name="valid_passwordmatch">Le mot de passe ne correspond pas</string>
+    <string name="valid_shopname">Nom du magasin</string>
+    <string name="valid_shopaddress">Entrée adresse</string>
+    <string name="valid_shopaddresscorrect">Entrez l adresse correcte</string>
+
+    <string name="valid_forgotcheckemail">Mot de passe modifié, vérifiez votre e-mail</string>
+    <string name="valid_forgotemail">Votre courriel n est pas correct, vérifiez à nouveau</string>
+    <string name="valid_forgotuser">Vous nêtes pas utilisateur, veuillez vous connecter.</string>
+</resources>

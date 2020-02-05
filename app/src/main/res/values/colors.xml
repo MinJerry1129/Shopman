@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#494c6d</color>
+    <color name="colorPrimaryDark">#302F2F</color>
+    <color name="colorPrimaryDarker">#2C337C</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteDark">#BDBBBB</color>
+    <color name="colorIron">#72C1F5</color>
+    <color name="colorProduct">#52505a</color>
+    <color name="colorDescription">#686767</color>
+    <color name="colorBidButton">#52DDDF</color>
+    <color name="colorPrice">#ed75bb</color>
+    <color name="colorOk">#5ab850</color>
+    <color name="colorCancel">#DA9E36</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

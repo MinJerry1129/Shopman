@@ -1,0 +1,57 @@
+package com.emp.auction;
+
+import android.content.Context;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AllProductAdapter extends ArrayAdapter<AllProduct> {
+
+    private Context mContext;
+    private List<AllProduct> allProductList = new ArrayList<>();
+
+    public AllProductAdapter(Context context, ArrayList<AllProduct> list) {
+        super(context, 0 , list);
+        mContext = context;
+        allProductList = list;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        View listItem = convertView;
+        if(listItem == null)
+            listItem = LayoutInflater.from(mContext).inflate(R.layout.item_all_product,parent,false);
+
+        AllProduct currentMovie = allProductList.get(position);
+
+        ImageView image = (ImageView) listItem.findViewById(R.id.productimage);
+        Log.d("imageurl:",currentMovie.getmImage() );
+        Glide.with(getContext())
+                .load(currentMovie.getmImage())
+                .into(image);
+//        Ion.with(getContext()).load(currentMovie.getmImage()).intoImageView(image);
+
+        ImageView fav_image = (ImageView) listItem.findViewById(R.id.productfavicon);
+        if(currentMovie.getmFav().equals("yes"))
+        {
+            fav_image.setImageResource(R.drawable.fav_red);
+        }else{
+            fav_image.setImageResource(R.drawable.fav_black);
+        }
+
+        TextView name = (TextView) listItem.findViewById(R.id.productname);
+        name.setText(currentMovie.getmName());
+        TextView price = (TextView) listItem.findViewById(R.id.productprice);
+        price.setText(currentMovie.getmPrice()+"€");
+        return listItem;
+    }
+}

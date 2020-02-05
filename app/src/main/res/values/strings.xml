@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">France Grossistes</string>
+    <color name="color_logo_primary_dark">#E12929</color>
+    <color name="color_logo_primary_darker">#CC1D1D</color>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_basket">Basket</string>
+    <string name="title_addproduct">Add Product</string>
+    <string name="title_logout">Logout</string>
+    <string name="title_allproduct">All Product</string>
+    <string name="title_allshop">All Shop</string>
+    <string name="title_mybasket">My Basket</string>
+    <string name="title_product">Product</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_editproduct">Edit Product</string>
+    <string name="title_favuser">Favorite User</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_catogories">Catogories</string>
+
+    <string name="title_activity_test">test</string>
+
+    <string name="string_search"> Search</string>
+    <string name="string_username"> Username</string>
+    <string name="string_mobile"> Mobile</string>
+    <string name="string_seeall">SeeAll--></string>
+    <string name="string_password"> Password</string>
+    <string name="string_rpassword"> Re-enter Password</string>
+    <string name="string_email"> eMail</string>
+    <string name="string_signup">No account yet? Create one</string>
+    <string name="string_login">Already a member? Login</string>
+    <string name="string_selimage">Select the Image</string>
+    <string name="string_shopname"> Shopname</string>
+    <string name="string_shopaddress"> ShopAddress</string>
+    <string name="string_price">Price:</string>
+    <string name="string_quality">Quality:</string>
+    <string name="string_description">Description</string>
+    <string name="string_productname">Product Name</string>
+    <string name="string_selectlanguage">Language(En)</string>
+
+    <string name="toast_forgot">Enter your username and mobile number.</string>
+    <string name="toast_sign_shopaddress">Insert Correct Shopaddress.</string>
+    <string name="toast_sign_correctinfo">Enter your information correctly.</string>
+    <string name="toast_sign_existuser">Your username is already using.</string>
+    <string name="toast_sign_existemail">Your email has been already registered</string>
+    <string name="toast_sign_fail">Fail. Try again.</string>
+    <string name="toast_sign_selshopimage">Select Shop Image.</string>
+
+    <string name="toast_login_valide">Enter your username and password</string>
+    <string name="toast_login_nouser">You are not signed. Please register</string>
+    <string name="toast_login_wrongpassword">Wrong Password</string>
+
+    <string name="toast_checkinternet">Check Your Internet</string>
+    <string name="toast_success">Success</string>
+    <string name="toast_fail">Fail</string>
+    <string name="toast_empty">Empty</string>
+    <string name="toast_checklocationset">Please select the shop position</string>
+
+
+    <string name="button_product">Product</string>
+    <string name="button_shop">Shop</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_login">Login</string>
+    <string name="button_forgot">Forgot Password?</string>
+    <string name="button_signup">Creat Account</string>
+    <string name="button_buyer">Buyer</string>
+    <string name="button_seller">Seller</string>
+    <string name="button_buy">B u y</string>
+    <string name="button_add">A D D</string>
+    <string name="button_update">Update</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_set">S e t</string>
+    <string name="button_edit">Edit</string>
+
+    <string name="valid_username">Enter your username</string>
+    <string name="valid_password">Enter your password</string>
+
+    <string name="valid_email">Enter valid email</string>
+    <string name="valid_usercharacter">Enter a valid username more than 4 characters</string>
+    <string name="valid_mobile">Enter valid mobile number</string>
+    <string name="valid_mobilecharacter">Please enter  more than 4 character.</string>
+    <string name="valid_passwordmatch">Password do not match</string>
+    <string name="valid_shopname">Input shopname</string>
+    <string name="valid_shopaddress">Input shopaddress</string>
+    <string name="valid_shopaddresscorrect">Input correct shopaddress</string>
+
+    <string name="valid_forgotcheckemail">Password Changed, Check your eMail</string>
+    <string name="valid_forgotemail">Your Email not right, Check again</string>
+    <string name="valid_forgotuser">You are not user, Please Login.</string>
+
+
+</resources>
